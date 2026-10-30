@@ -24,3 +24,126 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.document-editor {
+  outline: none;
+  line-height: 1.8;
+  font-size: 16px;
+  color: #334155;
+}
+
+.document-editor h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #0f172a;
+}
+
+.document-editor h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #1e293b;
+}
+
+.document-editor p {
+  margin-bottom: 1rem;
+}
+
+.document-editor ul {
+  list-style: disc;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.document-editor ol {
+  list-style: decimal;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.document-editor strong {
+  font-weight: 700;
+}
+
+.document-editor em {
+  font-style: italic;
+}
+
+.document-editor u {
+  text-decoration: underline;
+}
+
+.document-editor:focus {
+  outline: none;
+}
+.document-editor {
+  outline: none;
+  min-height: 500px;
+  line-height: 1.8;
+  font-size: 16px;
+  color: #334155;
+}
+
+.document-editor h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.document-editor h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.document-editor p {
+  margin-bottom: 1rem;
+}
+
+.document-editor ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+.document-editor ol {
+  list-style: decimal;
+  padding-left: 2rem;
+}
+
+.document-editor strong {
+  font-weight: 700;
+}
+
+.document-editor em {
+  font-style: italic;
+}
+
+.document-editor u {
+  text-decoration: underline;
+}
+
+.toolbar-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px;
+  border-radius: 6px;
+  color: #475569;
+}
+
+.toolbar-button:hover {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.toolbar-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.toolbar-button.active {
+  background: #dbeafe;
+  color: #2563eb;
+}
